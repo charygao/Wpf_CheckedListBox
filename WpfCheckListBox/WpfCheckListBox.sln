@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCheckListBox", "WpfCheckListBox\WpfCheckListBox.csproj", "{653D6D0F-619B-47CA-8C23-9D1E9DBEE29E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDemoApp", "WpfDemoApp\WpfDemoApp.csproj", "{D4529675-E7DA-4315-9158-9905C8F65776}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653D6D0F-619B-47CA-8C23-9D1E9DBEE29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653D6D0F-619B-47CA-8C23-9D1E9DBEE29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653D6D0F-619B-47CA-8C23-9D1E9DBEE29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653D6D0F-619B-47CA-8C23-9D1E9DBEE29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4529675-E7DA-4315-9158-9905C8F65776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4529675-E7DA-4315-9158-9905C8F65776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4529675-E7DA-4315-9158-9905C8F65776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4529675-E7DA-4315-9158-9905C8F65776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {780D4A6D-E205-4515-A980-69AE005342B6}
+	EndGlobalSection
+EndGlobal

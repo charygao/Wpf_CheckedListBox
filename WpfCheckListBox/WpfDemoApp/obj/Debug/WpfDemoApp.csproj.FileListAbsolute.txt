@@ -1,0 +1,15 @@
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\bin\Debug\WpfDemoApp.exe
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\bin\Debug\WpfDemoApp.pdb
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\bin\Debug\WpfCheckListBox.dll
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\bin\Debug\WpfCheckListBox.pdb
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\WpfDemoApp.csprojResolveAssemblyReference.cache
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\Window1.baml
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\Window1.g.cs
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\App.g.cs
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\WpfDemoApp_MarkupCompile.cache
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\WpfDemoApp.g.resources
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\WpfDemoApp.Properties.Resources.resources
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\WpfDemoApp.csproj.GenerateResource.Cache
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\WpfDemoApp.csproj.CoreCompileInputs.cache
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\WpfDemoApp.exe
+D:\Program Files\HK\Desktop\新建文件夹 (2)\WpfCheckListBox\WpfDemoApp\obj\Debug\WpfDemoApp.pdb

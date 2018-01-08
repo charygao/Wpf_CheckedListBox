@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Window x:Class="自制CheckListBox.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="309" Width="437">
+	<Grid>
+		<ListBox Margin="19,32,21,40" Name="listBox1" SelectionMode="Multiple">
+			<ListBoxItem>WPF界面设计技巧（7）—模拟电梯升降的缓动动画 (7-22 16:41)
+            </ListBoxItem>
+			<ListBoxItem>WPF界面设计技巧（6）—玩玩数字墨水手绘涂鸦 (7-19 01:20)
+            </ListBoxItem>
+			<ListBoxItem>WPF界面设计技巧（5）—自定义列表项呈现内容 (7-17 12:25)
+            </ListBoxItem>
+			<ListBoxItem>WPF界面设计技巧（4）—自定义列表项样式 (7-16 23:02)
+            </ListBoxItem>
+			<ListBoxItem>WPF界面设计技巧（3）—实现不规则动画按钮 (7-15 23:17)
+            </ListBoxItem>
+			<ListBoxItem>WPF界面设计技巧（2）—自定义漂亮的按钮样式 (7-15 01:56)
+            </ListBoxItem>
+			<ListBoxItem>WPF界面设计技巧（1）—不规则窗体图文指南 (7-13 22:24)
+			</ListBoxItem>
+		</ListBox>
+	</Grid>
+</Window>

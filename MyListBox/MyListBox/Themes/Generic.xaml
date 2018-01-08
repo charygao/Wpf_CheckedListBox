@@ -1,0 +1,75 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MyListBox">
+
+    <LinearGradientBrush x:Key="selectedItemBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FF6259C2" Offset="0"/>
+        <GradientStop Color="#FF1B146A" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="hoverBrush" Color="#59A8A9F1"/>
+    
+    <SolidColorBrush x:Key="selectedForeBrush" Color="White" />
+    
+    <RadialGradientBrush x:Key="togglebtn_bg" Center="0.5 0.5">
+        <GradientStop Color="#4CA5C880" Offset="1"/>
+        <GradientStop Color="#3FA7F9BC" Offset="0"/>
+    </RadialGradientBrush>
+    
+    <SolidColorBrush x:Key="selectedTgbtnFore" Color="#FFFBFFFC"/>
+
+    <ControlTemplate x:Key="toggleButtonTmp" TargetType="{x:Type ToggleButton}">
+        <Border Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}">
+            <Path x:Name="pc" Opacity="0" Margin="{TemplateBinding Padding}" Stretch="Uniform" Stroke="{TemplateBinding Foreground}" StrokeThickness="2.68">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,13">
+                            <PolyLineSegment Points="13,20 20,0"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter TargetName="pc" Property="Opacity" Value="1.0"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    
+    <Style TargetType="{x:Type local:CheckableListBoxItem}">
+        <Setter Property="Padding" Value="14,2,0,2"/>
+        <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:CheckableListBoxItem}">
+                    <Border x:Name="bd" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid Margin="2.1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <ToggleButton x:Name="tog" Grid.Column="0" Margin="1" Width="18" Height="18" IsChecked="{Binding IsChecked, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" Template="{StaticResource toggleButtonTmp}" Background="{StaticResource togglebtn_bg}"/>
+                            <ContentPresenter Grid.Column="1" Margin="{TemplateBinding Padding}" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}" ContentTemplateSelector="{TemplateBinding ContentTemplateSelector}" HorizontalAlignment="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ItemsControl}}}" VerticalAlignment="{Binding VerticalContentAlignment, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ItemsControl}}}"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="ListBoxItem.IsSelected" Value="True">
+                            <Setter Property="Background" TargetName="bd"  Value="{StaticResource selectedItemBrush}" />
+                            <Setter Property="Control.Foreground" Value="{StaticResource selectedForeBrush}"/>
+                            <Setter TargetName="tog" Property="Control.Foreground" Value="{StaticResource selectedTgbtnFore}"/>
+                        </Trigger>
+                        <MultiTrigger >
+                            <MultiTrigger.Conditions>
+                                <Condition Property="UIElement.IsMouseOver" Value="True"/>
+                                <Condition Property="ListBoxItem.IsSelected" Value="False"/>
+                            </MultiTrigger.Conditions> 
+                            <Setter TargetName="bd" Property="Background" Value="{StaticResource hoverBrush}"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

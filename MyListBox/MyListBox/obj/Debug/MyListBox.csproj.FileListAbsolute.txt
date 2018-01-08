@@ -1,0 +1,15 @@
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\bin\Debug\MyListBox.exe
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\bin\Debug\MyListBox.pdb
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MainWindow.g.cs
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\App.g.cs
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MyListBox_MarkupCompile.cache
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MyListBox_MarkupCompile.lref
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MainWindow.baml
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\Themes\Generic.baml
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MyListBox.g.resources
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MyListBox.Properties.Resources.resources
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MyListBox.csproj.GenerateResource.Cache
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MyListBox.csproj.CoreCompileInputs.cache
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MyListBox.exe
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\MyListBox\MyListBox\obj\Debug\MyListBox.pdb

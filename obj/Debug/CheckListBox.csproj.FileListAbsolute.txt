@@ -1,0 +1,14 @@
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\bin\Debug\CheckListBox.exe
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\bin\Debug\CheckListBox.pdb
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\CheckListBox.csprojResolveAssemblyReference.cache
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\MainWindow.g.cs
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\App.g.cs
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\CheckListBox_MarkupCompile.cache
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\CheckListBox_MarkupCompile.lref
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\MainWindow.baml
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\CheckListBox.g.resources
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\CheckListBox.csproj.CoreCompileInputs.cache
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\CheckListBox.exe
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\CheckListBox.pdb
+D:\Program Files\HK\Documents\GitHub\Wpf_CheckedListBox\obj\Debug\App.baml

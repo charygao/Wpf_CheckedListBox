@@ -1,0 +1,44 @@
+﻿<Window x:Class="CheckListBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ext="clr-namespace:CheckListBox.Extension"
+        xmlns:dataModel="clr-namespace:CheckListBox.DataModel"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+        Title="Check List Demo"
+        Height="200" Width="200"
+        x:Name="ThisWindow">
+    <Window.Resources>
+        <Style x:Key="DataItemCheckListBoxStyle"
+               TargetType="{x:Type ListBox}"
+               BasedOn="{StaticResource {x:Type ListBox}}">
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate><!--DataType="dataModel:DataItem"-->
+                        <TextBlock Text="{Binding Name}" d:DataContext="{d:DesignData DataItem}" /> <!--d:DataContext="{d:DesignInstance dataModel:DataItem}"-->
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="ItemContainerStyle">
+                <Setter.Value>
+                    <Style TargetType="{x:Type ListBoxItem}"
+                           BasedOn="{StaticResource CheckListBoxItemContainerStyle}">
+                        <Setter Property="IsSelected"
+                                Value="{Binding IsEnabled}" />
+                        <Setter Property="Margin" Value="2,2,0,0" />
+                    </Style>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="SelectionMode" Value="Multiple" />
+        </Style>
+    </Window.Resources>
+    <DockPanel Margin="12">
+        <CheckBox Content="Select All"
+                  Margin="0,0,0,5"
+                  DockPanel.Dock="Top"
+                  ext:ToggleButtonProperty.SyncTarget="{Binding ElementName=CheckListBox}" />
+        <ListBox x:Name="CheckListBox"
+                 Style="{StaticResource DataItemCheckListBoxStyle}"
+                 ItemsSource="{Binding Path=Items, ElementName=ThisWindow}" />
+    </DockPanel>
+</Window>
